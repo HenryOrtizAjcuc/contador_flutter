@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:contador/src/pages/home_page.dart';
 
 class MyApp extends StatelessWidget {
   // context contiene toda la información del árbol de widgets
@@ -6,7 +7,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Center(
-        child: Text('hola mundo'),
+        child: HomePage(),
       ),
     );
   }
